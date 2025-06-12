@@ -1,0 +1,16 @@
+{
+  "name": "discord-contab-bot",
+  "version": "1.0.0",
+  "description": "Bot per duplicare canali privati in base a un ruolo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "pg": "^8.16.0"
+  }
+}
